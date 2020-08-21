@@ -17,12 +17,12 @@ class String
 
   def count_sentences
     count = 0
-    
+
     self.split("." || "!" ||  "?").each do |sentence|
       if sentence != ""
         counter += 1
       end
-      
+
     end
     counter
   end
