@@ -21,11 +21,11 @@ class String
     self.split("." || "!" ||  "?")
     self.each do |sentence|
       if sentence != ""
+        count += 1
         binding.pry
       end
       binding.pry
 
-      count += 1
     end
     counter
   end
