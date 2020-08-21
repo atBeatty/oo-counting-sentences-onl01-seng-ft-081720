@@ -17,7 +17,6 @@ class String
 
   def count_sentences
     count = 0
-    sentence_array
 
     self.split("." || "!" ||  "?")
     self.each do |sentence|
