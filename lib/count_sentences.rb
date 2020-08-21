@@ -20,6 +20,7 @@ class String
 
     not_counted = sentence_array.count("")
     binding.pry
+    
     # dont_count = sentence_arraycount('')
   end
 
