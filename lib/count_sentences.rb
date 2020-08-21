@@ -17,7 +17,8 @@ class String
 
   def count_sentences
     sentence_array = self.split("." || "!" ||  "?")
-    sentence_array.count("")
+    counted = sentence_array.count("")
+    not_counted = sentence_array.count("")
     binding.pry
     # dont_count = sentence_arraycount('')
   end
