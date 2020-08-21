@@ -21,6 +21,7 @@ class String
     self.split("." || "!" ||  "?").each do |sentence|
       if sentence != ""
         counter += 1
+        binding.pry
       end
 
     end
