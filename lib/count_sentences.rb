@@ -16,11 +16,10 @@ class String
   end
 
   def count_sentences
-    count = 0
     sentence_array = self.split("." || "!" ||  "?")
-    sentence_array.each do |sentence|
-    end
-    count
+    count = sentence_array.count("." || "?" || "!")
+    dont_count = sentence_arraycount("")
+    binding.pry
   end
 
 end
