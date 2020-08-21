@@ -17,6 +17,8 @@ class String
 
   def count_sentences
     counter = 0;
+    self.split(".", "!", "?")
+    
     self.each do |letter|
       if letter == "." || letter == "!" || letter == "?"
         counter += 1
