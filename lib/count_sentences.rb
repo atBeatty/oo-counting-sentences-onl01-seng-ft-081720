@@ -18,12 +18,14 @@ class String
   def count_sentences
     count = 0
     sentence_array = self.split("." || "!" ||  "?")
+    binding.pry
     sentence_array.each do |sentence|
-      if sentence != ""
+      if sentence !== ""
         count += 1
       end
 
     end
     count
   end
+
 end
