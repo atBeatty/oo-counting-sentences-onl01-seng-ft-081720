@@ -24,7 +24,6 @@ class String
       if sentence != ""
         count += 1
       end
-      binding.pry
 
     end
     count
