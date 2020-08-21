@@ -24,8 +24,8 @@ class String
         binding.pry
       end
       binding.pry
-      
-      counter += 1
+
+      count += 1
     end
     counter
   end
