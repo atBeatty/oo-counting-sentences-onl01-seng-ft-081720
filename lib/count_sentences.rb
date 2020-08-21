@@ -19,7 +19,6 @@ class String
     sentence_array = self.split("." || "!" ||  "?")
     count = sentence_array.count("." || "?" || "!")
     # dont_count = sentence_arraycount('')
-    binding.pry
   end
 
 end
