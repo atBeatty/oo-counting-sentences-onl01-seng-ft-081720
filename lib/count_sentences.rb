@@ -18,7 +18,8 @@ class String
   def count_sentences
     count = 0
 
-    self.split("." || "!" ||  "?").each do |sentence|
+    self.split("." || "!" ||  "?")
+    self.each do |sentence|
       if sentence != ""
         binding.pry
       end
