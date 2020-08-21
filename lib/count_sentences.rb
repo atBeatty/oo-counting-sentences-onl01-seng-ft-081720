@@ -18,9 +18,7 @@ class String
   def count_sentences
     count = 0
     sentence_array = self.split("." || "!" ||  "?")
-    binding.pry
     sentence_array.each do |sentence|
-      binding.pry
     end
     count
   end
