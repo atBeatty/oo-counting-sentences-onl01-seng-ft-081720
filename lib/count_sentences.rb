@@ -23,11 +23,10 @@ class String
     self.each do |sentence|
       if sentence != ""
         count += 1
-        binding.pry
       end
       binding.pry
 
     end
-    counter
+    count
   end
 end
