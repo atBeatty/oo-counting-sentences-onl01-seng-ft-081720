@@ -20,7 +20,7 @@ class String
     sentence_array = self.split("." || "!" ||  "?")
     binding.pry
     sentence_array.each do |sentence|
-
+      binding.pry
     end
     count
   end
