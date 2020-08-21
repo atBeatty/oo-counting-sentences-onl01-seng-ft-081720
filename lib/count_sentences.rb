@@ -16,6 +16,14 @@ class String
   end
 
   def count_sentences
-    self.split("." || "!" ||  "?").size
+    count = 0
+    
+    self.split("." || "!" ||  "?").each do |sentence|
+      if sentence != ""
+        counter += 1
+      end
+      
+    end
+    counter
   end
 end
