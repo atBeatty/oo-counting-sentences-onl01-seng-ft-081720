@@ -17,9 +17,8 @@ class String
 
   def count_sentences
     count = 0
-
-    self.split("." || "!" ||  "?")
-    self.each do |sentence|
+    sentence_array = self.split("." || "!" ||  "?")
+    ss do |sentence|
       if sentence != ""
         count += 1
       end
