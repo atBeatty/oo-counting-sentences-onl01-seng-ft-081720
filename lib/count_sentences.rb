@@ -19,7 +19,7 @@ class String
     sentence_array = self.split("." || "!" ||  "?")
 
     not_counted = sentence_array.count("")
-    sentence_array - not_counted
+    sentence_array.size - not_counted
     # dont_count = sentence_arraycount('')
   end
 
