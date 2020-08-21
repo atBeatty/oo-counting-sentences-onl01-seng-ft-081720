@@ -23,6 +23,8 @@ class String
       if sentence != ""
         binding.pry
       end
+      binding.pry
+      
       counter += 1
     end
     counter
